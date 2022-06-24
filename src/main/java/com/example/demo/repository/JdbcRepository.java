@@ -12,7 +12,7 @@ public class JdbcRepository {
 
     public void findUsers(){
         DBManager db = new DBManager();
-        db.connector("localhost","3306","demo_schema", "test_user", "smdfurqlf$13");
+        db.connector("localhost","3306","demo_schema", "test_user", "xptmxm12#");
         User user = (User)db.sendQuery();
         db.disconnector();
     }
